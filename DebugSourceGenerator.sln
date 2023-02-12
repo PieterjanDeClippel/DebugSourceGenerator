@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SourceGenerators", "Example.SourceGenerators\Example.SourceGenerators.csproj", "{9CC6E625-207D-4438-A82C-C78E83FD431F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.SourceGenerators.Debugging", "Example.SourceGenerators.Debugging\Example.SourceGenerators.Debugging.csproj", "{3CB0BA68-0A38-40BA-BAED-75E5A27FE40C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CC6E625-207D-4438-A82C-C78E83FD431F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC6E625-207D-4438-A82C-C78E83FD431F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC6E625-207D-4438-A82C-C78E83FD431F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC6E625-207D-4438-A82C-C78E83FD431F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CB0BA68-0A38-40BA-BAED-75E5A27FE40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CB0BA68-0A38-40BA-BAED-75E5A27FE40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CB0BA68-0A38-40BA-BAED-75E5A27FE40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CB0BA68-0A38-40BA-BAED-75E5A27FE40C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
