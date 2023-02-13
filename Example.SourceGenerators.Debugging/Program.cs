@@ -1,3 +1,2 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-//Example.SourceGenerators.
+﻿Console.WriteLine("Hello, World!");
+//Example.SourceGenerators.Debugging.Files.Json._5ProductData.
